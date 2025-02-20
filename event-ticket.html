@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event-ticket-test-code</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Book Your Event Ticket</h2>
+      <label for="event">Choose an Event:</label>
+      <select id="event">
+        <option value="Music Concert - March 20, 2025 | 7:00 PM">
+          Music Concert - March 20, 2025 | 7:00 PM
+        </option>
+        <option value="Sports Game - April 15, 2025 | 2:00 PM">
+          Sports Game - April 15, 2025 | 2:00 PM
+        </option>
+      </select>
+      <br /><br />
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" />
+      <br /><br />
+      <button class="btn" onclick="generateTicket()">Get Ticket</button>
+    </div>
+
+    <div class="ticket" id="ticket">
+      <div class="user-name" id="userName"></div>
+      <h2 id="eventName"></h2>
+      <div class="details">
+        <span id="eventDateTime"></span>
+      </div>
+      <div class="ticket-number">
+        Ticket Number: <span id="ticketNumber"></span>
+      </div>
+      <button class="btn" onclick="downloadPDF()">Download Ticket</button>
+    </div>
+
+    <script src="/app/app.js"></script>
+  </body>
+</html>

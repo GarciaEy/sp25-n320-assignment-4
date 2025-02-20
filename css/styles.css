@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #fff;
+}
+.container {
+  margin-top: 50px;
+}
+
+.container h2 {
+  color: #9dad7f;
+}
+.ticket {
+  display: none;
+  border: 2px solid #506a6a;
+  padding: 20px;
+  width: 500px;
+  margin: 20px auto;
+  text-align: left;
+  background: #f8f8e8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  color: #3f5d5d;
+}
+.ticket h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #4d696a;
+  text-transform: uppercase;
+}
+.ticket .details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.ticket .ticket-number {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #9dad7f;
+}
+.ticket .user-name {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #9dad7f;
+  text-transform: uppercase;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #506a6a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #3f5d5d;
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .ticket,
+  .ticket * {
+    visibility: visible;
+  }
+  .ticket {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .btn {
+    display: none;
+  }
+}
