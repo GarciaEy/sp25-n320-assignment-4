@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 - Frontend</title>
+    <style>
+        iframe {
+            background-color: grey;
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="foodSec">
+        <p class="menu">MENU</p>
+        <img src="../images/pasta.jpg" style="height: 200px; width: auto;" class="img" alt="Fuck I love pasta">
+        <div class="info">
+        <p class="par">Oh man pasta we love pasta buy our pasta</p>
+        <p class="price">$10.99</p>
+        <button class="cart" foodName="pasta" foodPrice="10.99">ADD TO ORDER</button>
+
+    </div>
+
+    <img src="../images/hotDog.jpg" style="height: 200px; width: auto;" class="img" alt="yummy yummy dogs">
+        <div class="info">
+        <p class="par">Woah what a good old American classic yum yum</p>
+        <p class="price">$3.99</p>
+        <button class="cart" foodName="hotDog" foodPrice="3.99">ADD TO ORDER</button>
+    </div>
+
+    <button id="download-pdf">Download PDF</button>
+    <button id="view-pdf">View PDF</button>
+
+    <iframe id="pdf-preview" src="" frameborder="0"></iframe>
+    
+    <script src="../css/restaurantMenu.css"></script>
+    <script type="module" src="../js/restaurantMenu.js"></script>
+</body>
+</html>
