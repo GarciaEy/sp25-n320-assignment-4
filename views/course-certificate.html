@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Completion Certificate</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/views/event-ticket.html">Event Ticket</a></li>
+        <li>
+          <a href="/views/course-certificate.html"
+            >Course Completion Certificate</a
+          >
+        </li>
+        <li><a href="/invoice">Invoice Generator</a></li>
+        <li><a href="/menu-receipt">Restaurant Menu Receipt</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h2>Course Completion Certificate</h2>
+
+      <label for="userName">Enter Your Name:</label>
+      <input type="text" id="userName" />
+      <br /><br />
+
+      <h3>Answer the Questions</h3>
+      <p>1. What is the capital of France?</p>
+      <input type="radio" name="q1" value="Paris" /> Paris
+      <input type="radio" name="q1" value="London" /> London
+      <input type="radio" name="q1" value="Rome" /> Rome <br /><br />
+
+      <p>2. What is 5 + 3?</p>
+      <input type="radio" name="q2" value="7" /> 7
+      <input type="radio" name="q2" value="8" /> 8
+      <input type="radio" name="q2" value="9" /> 9
+
+      <br /><br />
+      <button class="btn" onclick="generateCertificate()">
+        Generate Certificate
+      </button>
+
+      <div class="certificate" id="certificate" style="display: none">
+        <h2>Certificate of Completion</h2>
+        <p id="certUser"></p>
+        <p id="certDate"></p>
+        <p id="certScore"></p>
+        <button class="btn" onclick="downloadPDF()">Download PDF</button>
+      </div>
+    </div>
+
+    <script src="../js/course-certificate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.0.0/jspdf.umd.min.js"></script>
+  </body>
+</html>

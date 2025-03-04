@@ -52,4 +52,4 @@ const port = process.env.PORT || 5445; // 3000, 3001,
 
 server.listen(port);
 
-console.log(`Server Running: http://localhost:${port}`)
+console.log(`Server Running: http://localhost:${port}`);
