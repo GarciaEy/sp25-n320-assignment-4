@@ -173,3 +173,19 @@ input[type="text"] {
   font-size: 18px;
   padding: 12px 24px;
 }
+
+.name {
+  display: flex;
+  font-size: 26px;
+  color: #9dad7f;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 500px;
+  margin-top:   50px;
+}
+
+.img {
+  margin-left: 100px;
+}
+
+
