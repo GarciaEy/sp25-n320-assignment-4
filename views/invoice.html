@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/views/event-ticket.html">Event Ticket</a></li>
+        <li>
+          <a href="/views/course-certificate.html"
+            >Course Completion Certificate</a
+          >
+        </li>
+        <li><a href="/invoice">Invoice Generator</a></li>
+        <li>
+          <a href="/views/restaurantMenu.html">Restaurant Menu Receipt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h2>Invoice Generator</h2>
+      <label for="customerName">Customer Name:</label>
+      <input type="text" id="customerName" />
+      <br /><br />
+
+      <label for="invoiceItems">Items (name, quantity, price per unit):</label>
+      <textarea
+        id="invoiceItems"
+        placeholder="Example: Apple,2,1.50\nOrange,3,0.75"
+      ></textarea>
+      <br /><br />
+
+      <button class="btn" onclick="generateInvoice()">Generate Invoice</button>
+
+      <div id="invoice" style="display: none">
+        <h2>Invoice</h2>
+        <p id="invoiceCustomer"></p>
+        <p id="invoiceDate"></p>
+        <div id="invoiceDetails"></div>
+        <p id="invoiceTotal"></p>
+        <button class="btn" onclick="downloadInvoicePDF()">Download PDF</button>
+      </div>
+    </div>
+
+    <script src="/js/invoice.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.0.0/jspdf.umd.min.js"></script>
+  </body>
+</html>
