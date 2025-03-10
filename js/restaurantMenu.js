@@ -9,7 +9,7 @@ const cart = [];
 
 function addCart(event) {
     const button = event.target;
-    const foodName = button.getAttribute('foodName');
+    const foodName = button.getAttribute('foodName');   
     const foodPrice = parseFloat(button.getAttribute('foodPrice'));
     const itemInCart = cart.find(item => item.name === foodName);
 

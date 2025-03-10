@@ -10,7 +10,9 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Key Takeaways
 
-Understanding of why we are doing this project
+-Understanding how to use Javascript to update and download a PDF
+-Learning to work together as a team to create a seamless webiste
+-Displaying previous knowledge to achieve assignment requirments
 
 ### Design Choices 
 
