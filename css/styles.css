@@ -165,13 +165,24 @@ input[type="radio"] {
 
 input[type="text"] {
   font-size: 18px;
-  padding: 5px;
-  width: 250px;
+  padding: 10px;
+  width: 280px;
+  margin-bottom: 15px;
 }
 
 .btn {
   font-size: 18px;
-  padding: 12px 24px;
+  padding: 12px 20px;
+  background-color: #506a6a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #3f5d5d;
 }
 
 .name {
@@ -181,7 +192,7 @@ input[type="text"] {
   font-family: Arial, sans-serif;
   font-weight: bold;
   margin-left: 500px;
-  margin-top:   50px;
+  margin-top: 50px;
 }
 .cart {
   margin-top: 10px;
@@ -197,7 +208,8 @@ input[type="text"] {
 .cart:hover {
   background: #3f5d5d;
 }
-#download-pdf, #view-pdf {
+#download-pdf,
+#view-pdf {
   margin-top: 10px;
   padding: 10px 20px;
   background: #506a6a;
@@ -207,8 +219,7 @@ input[type="text"] {
   border-radius: 5px;
   transition: background 0.3s;
 }
-#download-pdf, #view-pdf:hover {
+#download-pdf,
+#view-pdf:hover {
   background: #3f5d5d;
 }
-
-

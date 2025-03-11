@@ -16,7 +16,9 @@
           >
         </li>
         <li><a href="/views/invoice.html">Invoice Generator</a></li>
-        <li><a href="/menu-receipt">Restaurant Menu Receipt</a></li>
+        <li>
+          <a href="/views/restaurantMenu.html">Restaurant Menu Receipt</a>
+        </li>
       </ul>
     </nav>
 
@@ -28,15 +30,21 @@
       <br /><br />
 
       <h3>Answer the Questions</h3>
+
       <p>1. What is the capital of France?</p>
-      <input type="radio" name="q1" value="Paris" /> Paris
-      <input type="radio" name="q1" value="London" /> London
-      <input type="radio" name="q1" value="Rome" /> Rome <br /><br />
+      <div class="radio-group">
+        <input type="radio" name="q1" value="Paris" /><label>Paris</label>
+        <input type="radio" name="q1" value="London" /><label>London</label>
+        <input type="radio" name="q1" value="Rome" /><label>Rome</label>
+      </div>
+      <br /><br />
 
       <p>2. What is 5 + 3?</p>
-      <input type="radio" name="q2" value="7" /> 7
-      <input type="radio" name="q2" value="8" /> 8
-      <input type="radio" name="q2" value="9" /> 9
+      <div class="radio-group">
+        <input type="radio" name="q2" value="7" /><label>7</label>
+        <input type="radio" name="q2" value="8" /><label>8</label>
+        <input type="radio" name="q2" value="9" /><label>9</label>
+      </div>
 
       <br /><br />
       <button class="btn" onclick="generateCertificate()">
@@ -52,7 +60,6 @@
       </div>
     </div>
 
-    <script src="../js/course-certificate.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.0.0/jspdf.umd.min.js"></script>
+    <script type="module" src="../js/course-certificate.js"></script>
   </body>
 </html>
