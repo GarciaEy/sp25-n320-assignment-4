@@ -2,9 +2,14 @@
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic.
+- **Course Completion Certificate** – Users enter their name, complete a quiz, and receive a downloadable certificate.
+- **Event Ticket Generator** – Users select an event and generate a ticket with a unique number.
+- **Invoice Generator** – Users add items to a cart, generating an invoice with item details and totals.
+- **Restaurant Menu Receipt** – Users select menu items and download a receipt.
 
-### Live Link
+The project emphasizes **modular development, PDF generation, and frontend-backend integration**.
+
+https://github.com/GarciaEy/sp25-n320-assignment-4/tree/main
 
 [Blog Page](https://{username}.github.io/{reponame}/homework-2)
 
