@@ -24,6 +24,6 @@ List all members and their roles
 
 - Terry Walls: Responsible for invoice generator.
   <<<<<<< HEAD
-- # Eyanla Garcia: event ticket & designer
-  -Ivy Ditzenberger: Analyst, restruant menu
+-  Eyanla Garcia: event ticket & designer
+-  Ivy Ditzenberger: Analyst, restruant menu
   > > > > > > > 2259639f81389fcfb9e20b4093072ca38267fc01
