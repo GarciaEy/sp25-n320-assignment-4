@@ -23,3 +23,4 @@ List color palette used and rationale for top level layout decisions.
 List all members and their roles
 
 - Terry Walls: Responsible for invoice generator.
+-Ivy Ditzenberger: Analyst, restruant menu
