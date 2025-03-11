@@ -6,7 +6,7 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)  
+[Blog Page](https://{username}.github.io/{reponame}/homework-2)
 
 ### Key Takeaways
 
@@ -14,10 +14,12 @@ Brief description of your what your project is about and why you chose that topi
 -Learning to work together as a team to create a seamless webiste
 -Displaying previous knowledge to achieve assignment requirments
 
-### Design Choices 
+### Design Choices
 
 List color palette used and rationale for top level layout decisions.
 
 ### Members & Responsibilities
 
 List all members and their roles
+
+- Terry Walls: Responsible for invoice generator.
