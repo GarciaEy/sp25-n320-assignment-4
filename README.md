@@ -16,11 +16,14 @@ Brief description of your what your project is about and why you chose that topi
 
 ### Design Choices
 
-for the color pallet we decided on a foresty green color scheme and a cream/white color to compliment. i also made the decision of stickint to only san serif font for a more clean and modern look
+for the color pallet we decided on a foresty green color scheme and a cream/white color to compliment. i also made the decision of sticking to only san serif font for a more clean and modern look
 
 ### Members & Responsibilities
 
 List all members and their roles
 
 - Terry Walls: Responsible for invoice generator.
-- Eyanla Garcia: event ticket & designer
+  <<<<<<< HEAD
+- # Eyanla Garcia: event ticket & designer
+  -Ivy Ditzenberger: Analyst, restruant menu
+  > > > > > > > 2259639f81389fcfb9e20b4093072ca38267fc01
